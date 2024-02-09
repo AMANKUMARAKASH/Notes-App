@@ -1,0 +1,45 @@
+/* CreateForm.css */
+
+/* Center align the form content */
+.create-form-container {
+    
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .create-form {
+    width: 320px; /* Set the desired width of the form */
+    
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-form h2 {
+    color: #333;
+  }
+  
+  .create-form input,
+  .create-form textarea
+   {
+    margin-bottom: 5px;
+  }
+  
+  /* Button styles */
+  .create-form-button {
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 5px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-form-button:hover {
+    background-color: #0056b3;
+  }

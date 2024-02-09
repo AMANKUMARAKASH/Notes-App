@@ -1,0 +1,23 @@
+/* Assuming UpdateForm and CreateForm are wrapped in a container div */
+.container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center;
+    margin-top: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Style for each form */
+  .container > div {
+    margin-right: 20px; /* Add some space between forms */
+    padding: 10px;
+  }
+  
+  /* Make sure the last form doesn't have margin on the right */
+  .container > div:last-child {
+    margin-right: 0;
+  }
+  .container > div:last-child{
+    margin-top: 10px;
+  }
+
+  
